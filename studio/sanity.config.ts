@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'uniswap-blockchain-app',
 
-  projectId: '0fjv05zy',
+  projectId: 'm9gpbrkq',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
