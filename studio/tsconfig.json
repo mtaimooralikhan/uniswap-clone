@@ -10,7 +10,12 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "part:@sanity/*": ["./node_modules/@sanity/*"],
+      "all:part:@sanity/*": ["./node_modules/@sanity/*"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
